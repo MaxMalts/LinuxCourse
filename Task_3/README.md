@@ -1,6 +1,6 @@
-Добавляем новое поле unsigned long scheduled в task_struct.
+Добавляем новое поле `unsigned long scheduled` в task_struct.
 
-Создаем файл /proc/<xxx>/sheduled_counter, в который добавляем это поле.
+Создаем файл `/proc/<xxx>/sheduled_counter`, в который добавляем это поле.
 
 Счетчик у нас увеличивается в планировщике во время добавления процесса очередь
 
